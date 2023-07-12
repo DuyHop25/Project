@@ -774,7 +774,7 @@ header .scoll_bar__item:first-child span {
   display: inline-block;
   font-family: initial;
 }
-#Testimonials .container .main--content::before {
+#Testimonials .container .main__item--content::before {
   position: absolute;
   top: none;
   right: none;
@@ -791,29 +791,29 @@ header .scoll_bar__item:first-child span {
   transform: translateX(-50%) rotateZ(-135deg);
   z-index: 1001;
 }
-#Testimonials .container .main--info {
+#Testimonials .container .main__item--info {
   margin-top: 1.5rem;
 }
-#Testimonials .container .main--info img {
+#Testimonials .container .main__item--info img {
   float: left;
   border-radius: 50%;
 }
-#Testimonials .container .main--info--name {
+#Testimonials .container .main__item--info--name {
   padding-top: 0.5rem;
   padding-left: 5.6rem;
 }
-#Testimonials .owl {
+#Testimonials .container .owl {
   margin-top: 3rem;
   text-align: center;
 }
-#Testimonials .owl-dot {
+#Testimonials .container .owl-dot {
   display: inline-block;
   zoom: 1;
   background: transparent;
   border: none;
   cursor: pointer;
 }
-#Testimonials .owl-dot span {
+#Testimonials .container .owl-dot span {
   position: relative;
   top: none;
   right: none;
@@ -829,10 +829,10 @@ header .scoll_bar__item:first-child span {
   opacity: 0.9;
   border-radius: 50%;
 }
-#Testimonials .owl-dot span:hover {
+#Testimonials .container .owl-dot span:hover {
   background-color: var(--color-orange);
 }
-#Testimonials .owl .active span {
+#Testimonials .container .owl .active span {
   background-color: var(--color-orange);
 }
 
@@ -912,6 +912,11 @@ header .scoll_bar__item:first-child span {
   padding: 1rem 0px;
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+#Our-blog .main__item--content h4:hover {
+  color: var(--color-orange);
+  transition: 0.5s;
+  cursor: pointer;
 }
 #Our-blog .main__item--content a {
   font-size: -size;

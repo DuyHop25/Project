@@ -622,7 +622,6 @@ header{
                         display: inline-block;
                         font-family: initial;
                     }
-                  }
                 }
                 &--content::before{
                     @include position(absolute,none,none,-7px,9%,14px,14px );
@@ -644,10 +643,10 @@ header{
                     &--name{
                         padding-top: 0.5rem;
                         padding-left: 5.6rem;
-        
                     }
                 }
             }
+        
         }
         .owl{
             margin-top: 3rem;
@@ -679,6 +678,7 @@ header{
             }
         }
     }
+}
 
 
 #Our-blog{
@@ -737,6 +737,11 @@ header{
                     padding: 1rem 0px;
                     font-size: 1.5rem;
                     text-transform: uppercase;
+                }
+                h4:hover{
+                    color: var(--color-orange);
+                    transition: 0.5s;
+                    cursor: pointer;
                 }
                 a{
                     @include outfit_element(-size,--color-white, 0.8rem 1.8rem,  0.6rem 0px,none );

@@ -103,30 +103,28 @@ function UnhoverPageMenu() {
 
 
 // Open video 
-var body = document.body;
 var node = document.getElementById("icon");
-var video = document.getElementById('small-dialog');
-var closeBtn = document.getElementById('closeButton');
-
 node.addEventListener("click", function() {
-  var overlay = document.createElement('div');
-  video.style.display = "block";
-  overlay.className = 'overlay';
-  body.appendChild(overlay);
+    var body = document.body;
+    var video = document.getElementById('small-dialog');
+    var closeBtn = document.getElementById('closeButton');
+    var overlay = document.createElement('div');
+    video.style.display = "block";
+    overlay.className = 'overlay';
+    body.appendChild(overlay);
 
-  overlay.addEventListener("click", function() {
-    body.removeChild(overlay);
-    video.style.display = "none";
-    body.style.position = "relative";
-    video.style.position = "absolute";
-  });
+    overlay.addEventListener("click", function() {
+        body.removeChild(overlay);
+        video.style.display = "none";
+        body.style.position = "relative";
+        video.style.position = "absolute";
+    });
 
-  closeBtn.addEventListener("click", function() {
-    video.style.display = "none";
-    overlay.style.backgroundColor = "transparent";
-  });
+    closeBtn.addEventListener("click", function() {
+        video.style.display = "none";
+        overlay.style.backgroundColor = "unset";
+    });
 });
-
 
 
 
