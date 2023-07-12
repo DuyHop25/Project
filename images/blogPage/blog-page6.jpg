@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="author" content="W3Layouts.com" />
+
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<!-- google fonts -->
+
+	<link href="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/css/style-liberty.css" rel="stylesheet">
+	<title>Hello world! &#8211; Industries &#8211; Industrial Category Website WordPress Theme</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Industries - Industrial Category Website WordPress Theme &raquo; Feed" href="https://wp.w3layouts.com/industries/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Industries - Industrial Category Website WordPress Theme &raquo; Comments Feed" href="https://wp.w3layouts.com/industries/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Industries - Industrial Category Website WordPress Theme &raquo; Hello world! Comments Feed" href="https://wp.w3layouts.com/industries/2021/04/29/hello-world-2/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wp.w3layouts.com\/industries\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://wp.w3layouts.com/industries/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://wp.w3layouts.com/industries/wp-includes/css/classic-themes.min.css?ver=6.2.2' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='w3layouts-style-css' href='https://wp.w3layouts.com/industries/wp-content/themes/industries/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='fm-frontend-css' href='https://wp.w3layouts.com/industries/wp-content/plugins/tlp-food-menu/assets/css/foodmenu.min.css?ver=5.0.5' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css' href='https://wp.w3layouts.com/industries/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css?ver=7.1.1' media='all' />
+<link rel="https://api.w.org/" href="https://wp.w3layouts.com/industries/wp-json/" /><link rel="alternate" type="application/json" href="https://wp.w3layouts.com/industries/wp-json/wp/v2/posts/30" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wp.w3layouts.com/industries/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wp.w3layouts.com/industries/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel="canonical" href="https://wp.w3layouts.com/industries/2021/04/29/hello-world-2/" />
+<link rel='shortlink' href='https://wp.w3layouts.com/industries/?p=30' />
+<link rel="alternate" type="application/json+oembed" href="https://wp.w3layouts.com/industries/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwp.w3layouts.com%2Findustries%2F2021%2F04%2F29%2Fhello-world-2%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://wp.w3layouts.com/industries/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwp.w3layouts.com%2Findustries%2F2021%2F04%2F29%2Fhello-world-2%2F&#038;format=xml" />
+<link rel="pingback" href="https://wp.w3layouts.com/industries/xmlrpc.php"><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+
+<body id="top-gap-fixed-header" class="post-template-default single single-post postid-30 single-format-standard">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>	
+
+	<style>
+		span.w3l-icon.-back span.fa {
+			position: static;
+			color: #e6ebff;
+		}
+
+		#w3lDemoBar.w3l-demo-bar {
+			top: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 9999;
+			padding: 40px 5px 10px;
+			padding-top: 70px;
+			background: #0D1326;
+			border-top-left-radius: 9px;
+			border-bottom-left-radius: 9px;
+		}
+
+		#w3lDemoBar.w3l-demo-bar a {
+			display: block;
+			color: #e6ebff;
+			text-decoration: none;
+			line-height: 24px;
+			opacity: .6;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+			display: block;
+		}
+
+		#w3lDemoBar.w3l-demo-bar a:hover {
+			opacity: 1;
+		}
+
+		#w3lDemoBar.w3l-demo-bar .w3l-icon svg {
+			color: #e6ebff;
+		}
+
+		#w3lDemoBar.w3l-demo-bar .responsive-icons {
+			margin-top: 30px;
+			border-top: 1px solid #41414d;
+			padding-top: 40px;
+		}
+
+		#w3lDemoBar.w3l-demo-bar .demo-btns {
+			border-top: 1px solid #41414d;
+			padding-top: 30px;
+		}
+
+		#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+			font-size: 26px;
+		}
+
+		#w3lDemoBar.w3l-demo-bar .no-margin-bottom {
+			margin-bottom: 0;
+		}
+
+		.toggle-right-sidebar span {
+			background: #0D1326;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			color: #e6ebff;
+			border-radius: 50px;
+			font-size: 26px;
+			cursor: pointer;
+			opacity: .5;
+		}
+
+		.pull-right-demo-bar {
+			float: right;
+			position: fixed;
+			right: 0px;
+			top: 150px;
+			width: 90px;
+			z-index: 99999;
+			text-align: center;
+		}
+
+		/* ============================================================
+									RIGHT SIDEBAR SECTION
+									============================================================ */
+
+		#right-sidebar {
+			width: 90px;
+			position: fixed;
+			z-index: 1000;
+			right: 0px;
+			top: 0;
+			margin-top: 140px;
+			-webkit-transition: all .5s ease-in-out;
+			-moz-transition: all .5s ease-in-out;
+			-o-transition: all .5s ease-in-out;
+			transition: all .5s ease-in-out;
+			overflow-y: auto;
+		}
+
+
+		/* ============================================================
+									RIGHT SIDEBAR TOGGLE SECTION
+									============================================================ */
+
+		.hide-right-bar-notifications {
+			margin-right: -300px !important;
+			-webkit-transition: all .3s ease-in-out;
+			-moz-transition: all .3s ease-in-out;
+			-o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+		}
+
+
+
+		@media (max-width: 992px) {
+			#w3lDemoBar.w3l-demo-bar a.desktop-mode {
+				display: none;
+
+			}
+		}
+
+		@media (max-width: 767px) {
+			#w3lDemoBar.w3l-demo-bar a.tablet-mode {
+				display: none;
+
+			}
+		}
+
+		@media (max-width: 568px) {
+			#w3lDemoBar.w3l-demo-bar a.mobile-mode {
+				display: none;
+			}
+
+			#w3lDemoBar.w3l-demo-bar .responsive-icons {
+				margin-top: 0px;
+				border-top: none;
+				padding-top: 0px;
+			}
+
+			#right-sidebar,
+			.pull-right-demo-bar {
+				width: 90px;
+			}
+
+			#w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile {
+				margin-bottom: 0;
+			}
+		}
+	</style>
+	<div class="pull-right-demo-bar toggle-right-sidebar">
+		<span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+	</div>
+
+	<div id="right-sidebar" class="right-sidebar-notifcations nav-collapse">
+		<div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+
+			<div id="w3lDemoBar" class="w3l-demo-bar">
+				<div class="demo-btns">
+					<a href="https://w3layouts.com/?p=4763800000043562">
+						<span class="w3l-icon -back">
+							<span class="fa fa-arrow-left"></span>
+						</span>
+						<span class="w3l-text">Back</span>
+					</a>
+					<a href="https://w3layouts.com/?p=4763800000043562">
+						<span class="w3l-icon -download">
+							<span class="fa fa-download"></span>
+						</span>
+						<span class="w3l-text">Download</span>
+					</a>
+					<a href="https://w3layouts.com/checkout/?add-to-cart=4763800000043562" class="no-margin-bottom-mobile">
+						<span class="w3l-icon -buy">
+							<span class="fa fa-shopping-cart"></span>
+						</span>
+						<span class="w3l-text">Buy</span>
+					</a>
+				</div>
+				<!---<div class="responsive-icons">
+															<a href="#url" class="desktop-mode">
+																	<span class="w3l-icon -desktop">
+																			<span class="fa fa-desktop"></span>
+																	</span>
+															</a>
+															<a href="#url" class="tablet-mode">
+																	<span class="w3l-icon -tablet">
+																			<span class="fa fa-tablet"></span>
+																	</span>
+															</a>
+															<a href="#url" class="mobile-mode no-margin-bottom">
+																	<span class="w3l-icon -mobile">
+																			<span class="fa fa-mobile"></span>
+																	</span>
+															</a>
+													</div>-->
+			</div>
+			<div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003" style="overflow: hidden; outline: none;">
+			</div>
+		</div>
+	</div>
+
+
+	<!--header-->
+	<header id="site-header" class="fixed-top main-header">
+		<div class="container-fluid w3HeaderLogoEd">
+			<nav class="navbar navbar-expand-lg stroke">
+																<h1><a class="navbar-brand" href="https://wp.w3layouts.com/industries/">
+						<i class="fas fa-tools"></i> Industries					</a></h1>
+
+								<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content"
+					aria-expanded="false" aria-label="Toggle Navigation">
+					<span class="fa icon-expand fa-bars"></span>
+					<span class="fa icon-close fa-times"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbar-content">
+					<ul id="primary-menu" class="navbar-nav ml-lg-auto"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-21 nav-item"><a href="https://wp.w3layouts.com/industries/" class="nav-link">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22 nav-item"><a href="https://wp.w3layouts.com/industries/about-page/" class="nav-link">About</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 nav-item"><a href="https://wp.w3layouts.com/industries/services-page/" class="nav-link">Services</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25 nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbar-dropdown-menu-link-25" aria-haspopup="true" aria-expanded="false">Pages</a>
+<div  class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-25">
+<a href="https://wp.w3layouts.com/industries/blog-posts/" class="dropdown-item" id="menu-item-29">Blog Posts</a><a href="https://wp.w3layouts.com/industries/404-page/" class="dropdown-item" id="menu-item-26">404 page</a><a href="https://wp.w3layouts.com/industries/single-landing-page/" class="dropdown-item" id="menu-item-27">Landing page</a><a href="https://wp.w3layouts.com/industries/elements-page/" class="dropdown-item" id="menu-item-28">Elements page</a></div>
+</li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24 nav-item"><a href="https://wp.w3layouts.com/industries/contact-page/" class="nav-link">Contact</a></li>
+</ul>
+															<!-- search button -->
+					<div class="search-right ml-lg-3 HeaderSearch">
+						<form action="https://wp.w3layouts.com/industries/" method="GET" class="search-box position-relative">
+							<div class="input-search">
+								<input type="search" placeholder="Enter Keyword" name="s"
+									required="required" class="search-popup">
+							</div>
+							<button type="submit" class="btn search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>
+					<!-- //search button -->
+									</div>
+
+				<!-- toggle switch for light and dark theme -->
+												<div class="mobile-position text-center DarkandLight">
+					<nav class="navigation">
+						<div class="theme-switch-wrapper">
+							<label class="theme-switch" for="checkbox">
+								<input type="checkbox" id="checkbox">
+								<div class="mode-container">
+									<i class="gg-sun"></i>
+									<i class="gg-moon"></i>
+								</div>
+							</label>
+						</div>
+					</nav>
+				</div>
+								<!-- //toggle switch for light and dark theme -->
+			</nav>
+		</div>
+		</section>
+	</header>
+<main id="primary" class="site-main">
+
+	
+<div class="header-fixed-space-height">
+
+</div>
+
+
+
+<!-- inner banner -->
+<section class="inner-banner">
+  <div class="w3l-breadcrumb">
+      <div class="container">
+                                  <h4 class="inner-text-title BlogSinglePageBanner font-weight-bold mb-2">
+              Blog Single</h4>
+                    
+          <!-- Blog Single breadcrumb -->
+                              <div class="breadcrumbs-custom-path AllBreadcrumbs">
+              <a href="https://wp.w3layouts.com/industries" rel="nofollow">Home</a>&nbsp;&nbsp;&#187;&nbsp;&nbsp;<a href="https://wp.w3layouts.com/industries/category/creative/" rel="category tag">Creative</a> &nbsp;&nbsp;&#187;&nbsp;&nbsp; Hello world!          </div>
+                    <!-- //Blog Single breadcrumb -->
+
+      </div>
+  </div>
+</section>
+<!-- //inner banner -->
+
+
+<article id="post-30" class="post-30 post type-post status-publish format-standard has-post-thumbnail hentry category-creative">
+
+
+
+<section class="w3l-blog">
+  <div class="text-element-9 py-5">
+      <div class="container py-md-5 py-4 BlogArticle">
+          <div class="row grid-text-9">
+
+                    <!-- single post -->
+                    
+                                        
+                    <div class="col-lg-8 text11-content">
+                        
+                      <div class="single-bottom-blog">
+                        <div class="top-bg bg-img">
+                                                        
+			<div class="post-thumbnail">
+				<img width="1680" height="900" src="https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single.jpg 1680w, https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single-300x161.jpg 300w, https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single-1024x549.jpg 1024w, https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single-768x411.jpg 768w, https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single-1536x823.jpg 1536w, https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single-360x193.jpg 360w, https://wp.w3layouts.com/industries/wp-content/uploads/sites/46/2021/04/blog-single-720x386.jpg 720w" sizes="(max-width: 1680px) 100vw, 1680px" />			</div><!-- .post-thumbnail -->
+
+		                                                  </div>
+
+                        <div class="bottom-grid mt-4 pt-md-2">
+                          <ul class="blog-author-date mb-sm-4 mb-3 d-flex justify-content-between align-items-end">
+                              
+                                                                                            <li class="author"><a href="https://wp.w3layouts.com/industries/author/w3layouts/">
+                                  <i class="fas fa-user mr-1" aria-hidden="true"></i>
+                                  <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://wp.w3layouts.com/industries/author/w3layouts/">W3Layouts</a></span></span></a>
+                                </li>
+                                                            
+                                                                                              <li><i class="fas fa-clock mr-1" aria-hidden="true"></i>April 29, 2021</li>
+                                                        </ul>
+                          <h3>Hello world! </h3>
+
+                    
+
+                    <div class="entry-content">
+                        <div class="single-post-content">
+                            
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+
+
+                                                                                    <div class="author-card author-listhny my-lg-5 my-sm-4 w3ArticleAuth">
+                                <div class="row">
+                                    <div class="author-left col-sm-3 mb-sm-0 mb-4">
+                                        <a href="https://wp.w3layouts.com/industries/author/w3layouts/">
+                                            <img class="img-fluid" src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=200&d=mm&r=g"
+                                                alt="W3Layouts">
+                                        </a>
+                                    </div>
+                                    <div class="author-right col-sm-9 position-relative align-self-center">
+
+                                        <h4><a href="https://wp.w3layouts.com/industries/author/w3layouts/"
+                                                class="title-team-28">W3Layouts</a></h4>
+                                        <p class="para-team mb-0">We help developers, designers and website owner's create stunning websites. We have been building a huge collection of website templates for every business and industry needs. Simply select your favourite template, edit, download and launc</p>
+
+                                        <div class="share-icons mt-4">
+                                                                                        <a href="https://twitter.com/w3layouts"><span class="fa fa-twitter"></span></a>
+
+                                                                                                                                    <a href="https://www.facebook.com/w3layouts"><span class="fa fa-facebook"></span></a>
+
+                                                                                                                                    <a href="https://www.instagram.com/w3layouts_/"><span class="fa fa-instagram"></span></a>
+
+                                            
+                                                                                                                                                                                
+
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </div>
+                    <!-- .entry-content -->
+
+                    
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-next"><a href="https://wp.w3layouts.com/industries/2021/04/30/nemo-enim-ipsam-oluptatem-quia-sit-aspernatur/" rel="next"><span class="nav-subtitle">Next Post </span> <span class="fa fa-arrow-right" aria-hidden="true"></span></a></div></div>
+	</nav>
+
+                                                            <div class="w3PostComments">
+                        
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			One thought on &ldquo;<span>Hello world!</span>&rdquo;		</h2><!-- .comments-title -->
+
+		
+		<ol class="comment-list">
+					<li id="comment-2" class="comment even thread-even depth-1">
+			<article id="div-comment-2" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' decoding='async'/>						<b class="fn"><a href="https://wordpress.org/" class="url" rel="ugc external nofollow">A WordPress Commenter</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://wp.w3layouts.com/industries/2021/04/29/hello-world-2/#comment-2"><time datetime="2021-04-29T11:21:36+00:00">April 29, 2021 at 11:21 am</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Hi, this is a comment.<br />
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.<br />
+Commenter avatars come from <a href="https://gravatar.com" rel="nofollow ugc">Gravatar</a>.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='https://wp.w3layouts.com/industries/2021/04/29/hello-world-2/?replytocom=2#respond' data-commentid="2" data-postid="30" data-belowelement="div-comment-2" data-respondelement="respond" data-replyto="Reply to A WordPress Commenter" aria-label='Reply to A WordPress Commenter'>Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/industries/2021/04/29/hello-world-2/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://wp.w3layouts.com/industries/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='30' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+                    </div>
+                    
+                </div>
+
+                                
+            </div>
+		</div>
+	</div>
+</section>
+</article><!-- #post-30 -->
+
+
+
+
+
+
+<footer class="w3l-footer-29-main">
+    <div class="footer-29-w3l py-5">
+        <div class="container py-4 IndustriesFooter">
+            <div class="row footer-top-29">
+
+                                        <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+                    
+                  <div class="footer-logo mb-3">
+                    <a class="footer-brand-logo" href="https://wp.w3layouts.com/industries/">
+                      <i class="fas fa-tools"></i> 
+                      Industries</a>
+                  </div>
+
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+                        
+                                                                  <div class="main-social-footer-29 mt-4">
+                                                                                    <a href="https://www.facebook.com/w3layouts/"
+                              class="facebook"><span class="fab fa-facebook-f"></span></a>
+                            
+                                                                                    <a href="https://twitter.com/W3layouts"
+                              class="twitter"><span class="fab fa-twitter"></span></a>
+                            
+                                                                                    <a href="https://instagram.com/company/w3layouts"
+                              class="instagram"><span class="fab fa-instagram"></span></a>
+                            
+                                                                                    <a href="https://in.linkedin.com/company/w3layouts"
+                              class="linkedin"><span class="fab fa-linkedin-in"></span></a>
+                                                  </div>
+                                      </div>
+              
+                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+                  <div id="meta-4" class="widget_meta"><h6 class="footer-title-29">Meta</h6>
+		<ul>
+						<li><a href="https://wp.w3layouts.com/industries/wp-login.php">Log in</a></li>
+			<li><a href="https://wp.w3layouts.com/industries/feed/">Entries feed</a></li>
+			<li><a href="https://wp.w3layouts.com/industries/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</div>                </div>
+                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5 pl-lg-4">
+                  <div id="categories-4" class="widget_categories"><h6 class="footer-title-29">Categories</h6>
+			<ul>
+					<li class="cat-item cat-item-2"><a href="https://wp.w3layouts.com/industries/category/business/">Business</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://wp.w3layouts.com/industries/category/creative/">Creative</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://wp.w3layouts.com/industries/category/design/">Design</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://wp.w3layouts.com/industries/category/industry/">Industry</a>
+</li>
+			</ul>
+
+			</div>                </div>
+
+                                            <div class="col-lg-4 col-md-6 col-sm-7 FooterNewsletter footer-list-29 footer-4 mt-lg-0 mt-5 pl-lg-5">
+                    <h6 class="footer-title-29">Newsletter </h6>
+                    <form action="" class="subscribe d-flex align-items-center" method="post">
+                        <input type="email" name="email" 
+                        placeholder="Email Address" required="">
+                        <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                    </form>
+
+                                                                <h6 class="footer-title-29 pt-2 mt-4 mb-3">Give us a free call: </h6>
+                        <a href="tel:+12 23456790">
+                        +12 23456790</a>
+                    
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <!-- copyright -->
+              <div class="w3l-copyright">
+          <div class="container">
+              <div class="row bottom-copies align-items-center">
+                <p class="col-lg-8 CopyRights copy-footer-29">&copy; 2023                    Industries                    All Rights Reserved |
+                                                            WordPress Theme by                    <a href="https://w3layouts.com/">
+                        W3Layouts.                    </a>
+                                    </p>
+                  
+                <div class="col-lg-4 footer-list-29 footer-copy-list">
+                    <div id="archives-5" class="widget_archive"><h6 class="footer-title-29 d-none">Archives</h6>
+			<ul>
+					<li><a href='https://wp.w3layouts.com/industries/2021/04/'>April 2021</a></li>
+			</ul>
+
+			</div>                </div>
+              </div>
+          </div>
+      </div>
+      <!-- //copyright -->
+    </footer>
+
+
+
+
+
+<!-- Js scripts -->
+
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+</button>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+        } else {
+            document.getElementById("movetop").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<!-- //move top -->
+
+<!-- common jquery plugin -->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/jquery-3.3.1.min.js"></script>
+<!-- //common jquery plugin -->
+
+<!-- demo-bar js -->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/jquery-2.2.4.min.js"></script>
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/demobar-script.js"></script>
+<!-- demo-bar js -->
+
+<!-- banner image moving effect -->
+<script>
+    var lFollowX = 0,
+        lFollowY = 0,
+        x = 0,
+        y = 0,
+        friction = 1 / 30;
+
+    function animate() {
+        x += (lFollowX - x) * friction;
+        y += (lFollowY - y) * friction;
+
+        translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+
+        $('.banner-image').css({
+            '-webit-transform': translate,
+            '-moz-transform': translate,
+            'transform': translate
+        });
+
+        window.requestAnimationFrame(animate);
+    }
+
+    $(window).on('mousemove click', function (e) {
+
+        var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+        var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+        lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+        lFollowY = (10 * lMouseY) / 100;
+
+    });
+
+    animate();
+</script>
+<!-- //banner image moving effect -->
+
+<!-- counter for stats -->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/counter.js"></script>
+<!-- //counter for stats -->
+
+<!-- magnific popup -->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/jquery.magnific-popup.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+        });
+
+        $('.popup-with-move-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-slide-bottom'
+        });
+    });
+</script>
+<!-- //magnific popup -->
+
+<!-- owl carousel -->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/owl.carousel.js"></script>
+<!-- script for tesimonials carousel slider -->
+<script>
+    $(document).ready(function () {
+        $("#owl-demo2").owlCarousel({
+            loop: true,
+            nav: false,
+            margin: 50,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                736: {
+                    items: 1,
+                    nav: false
+                },
+                991: {
+                    items: 2,
+                    margin: 30,
+                    nav: false
+                },
+                1080: {
+                    items: 2,
+                    nav: false
+                }
+            }
+        })
+    })
+</script>
+<!-- //script for tesimonials carousel slider -->
+<!-- owl carousel -->
+
+<!-- theme switch js (light and dark)-->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/theme-change.js"></script>
+<script>
+    function autoType(elementClass, typingSpeed) {
+        var thhis = $(elementClass);
+        thhis.css({
+            "position": "relative",
+            "display": "inline-block"
+        });
+        thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+        thhis = thhis.find(".text-js");
+        var text = thhis.text().trim().split('');
+        var amntOfChars = text.length;
+        var newString = "";
+        thhis.text("|");
+        setTimeout(function () {
+            thhis.css("opacity", 1);
+            thhis.prev().removeAttr("style");
+            thhis.text("");
+            for (var i = 0; i < amntOfChars; i++) {
+                (function (i, char) {
+                    setTimeout(function () {
+                        newString += char;
+                        thhis.text(newString);
+                    }, i * typingSpeed);
+                })(i + 1, text[i]);
+            }
+        }, 1500);
+    }
+
+    $(document).ready(function () {
+        // Now to start autoTyping just call the autoType function with the 
+        // class of outer div
+        // The second paramter is the speed between each letter is typed.   
+        autoType(".type-js", 200);
+    });
+</script>
+<!-- //theme switch js (light and dark)-->
+
+<!-- MENU-JS -->
+<script>
+    $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+</script>
+<!-- //MENU-JS -->
+
+<!-- disable body scroll which navbar is in active -->
+<script>
+    $(function () {
+        $('.navbar-toggler').click(function () {
+            $('body').toggleClass('noscroll');
+        })
+    });
+</script>
+<!-- //disable body scroll which navbar is in active -->
+
+<!--bootstrap-->
+<script src="https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/js/bootstrap.min.js"></script>
+<!-- //bootstrap-->
+
+<!-- //Js scripts -->
+
+
+
+
+<script src='https://wp.w3layouts.com/industries/wp-content/themes/industries/js/navigation.js?ver=1.0.0' id='w3layouts-navigation-js'></script>
+<script src='https://wp.w3layouts.com/industries/wp-includes/js/comment-reply.min.js?ver=6.2.2' id='comment-reply-js'></script>
+
+</body>
+
+</html>
+</main><!-- #main -->
+
+
+<!-- Cache served by breeze CACHE - Last modified: Sun, 09 Jul 2023 16:54:00 GMT -->

@@ -1,0 +1,295 @@
+@use "../utils" as *;
+@use "../globals" as *;
+
+
+
+%cursor-transition--about{
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+@mixin center-background--about($url){
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+
+@mixin flex--about($justify-content){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+}
+@mixin outfit_element--about($font-size,$color,$padding,$margin,$border){
+    font-size:$font-size;
+    color:var($color);
+    padding:$padding;
+    margin: $margin;
+    border: $border;
+}
+@mixin position--about($position,$top,$right,$bottom,$left,$width,$height){
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    width: $width;
+    height: $height;
+}
+
+header#About{
+    height: 40vh;
+    position: relative;
+    #about{
+        color: none;
+    }
+    .about{
+        color: var(--color-grey);
+        @include position--about(absolute, 50%, 0, 0 , 9%, none ,none );
+        h4{
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+        }
+        a{
+            font-weight: 700;
+            color: var(--color-black);
+            margin-right: -5px;
+        }
+        a:hover{
+            color: var(--color-orange);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+#AboutPage{
+    padding: 7% 8%;
+    @include flex--about(space-around);
+    align-items: unset;
+    .content{
+        width: 48%;
+        h3{
+            font-size: 2.7rem;
+            line-height: 50px;
+            font-weight: 600;
+            span{
+                color: var(--color-orange);
+            }
+        }
+        p{
+            padding: 0.8rem 0px;
+        }
+        ul{
+            padding: 0;
+            margin-top: 5px;
+            li{
+                list-style-type: none;
+                line-height: 2.3rem;
+                i{
+                    margin-right: 7px;
+                }
+            }
+        }
+        &__view{
+            margin-top: 2.4rem;
+            a{
+                @include outfit_element--about(unset, --color-white, 1.1rem 1.6rem, none ,none );
+                background-color: var(--color-orange);
+                border-radius: 3rem;
+                font-weight: 600;
+            }
+            a:hover{
+                background-color: var(--color-black);
+                @extend %cursor-transition--about;
+            }
+        }
+        
+    }
+    .img{
+        width: 48%;
+        img{
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+}
+
+
+#Feature{
+    padding: 7% 8%;
+    background-color: var(--color-bg--light);
+    .container{
+        @include flex--about(space-around);
+        text-align: center;
+        .item{
+            width: 33%;
+            &__icon{
+                @include outfit_element--about(32px,--color-orange,unset,0px 0px 0px 25px,none);
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                border-radius: 50%;
+                background: rgb(255 76 76 / 9%);
+            }
+            h3{
+                @include outfit_element--about(1.35rem, unset, 1rem 0px, none, none);
+                text-transform:uppercase;
+                letter-spacing: -1px;
+            }
+            h3:hover{
+                color: var(--color-orange);
+                @extend %cursor-transition--about;
+            }
+            a{
+                display: inline-block;
+                margin-top: 1.4rem;
+                letter-spacing: -1px;
+                color: var(--color-black);
+                font-weight: bold;
+                i{
+                    color: var(--color-black);
+                }
+            }
+            a:hover{
+                color: var(--color-orange);
+                @extend %cursor-transition--about;
+                i{
+                    margin-left: 4px;
+                    color: var(--color-orange);
+                    @extend %cursor-transition--about;
+                }
+            }
+        }
+    }
+}
+
+#Industries{
+    padding: 7% 8%;
+    .container{
+        @include flex--about(space-between);
+        align-items: unset;
+        .item{
+            width: 31%;
+        }
+        .item__1{
+            &--tittle{
+                font-size: 1.25rem;
+                text-transform: uppercase;
+            }
+            h3{
+                @include outfit_element--about(3rem,unset,0.5rem 0px , unset,unset );
+                font-weight: bold;
+                line-height: 3.7rem;
+                span{
+                    color: var(--color-orange);
+                }
+            }
+            &--cmt{
+                padding: 0.8rem 0px;
+            }
+            a{
+                @include outfit_element--about(-size,--color-white, 0.8rem 1.8rem, 2rem 0px,none );
+                display: inline-block;
+                background-color: var(--color-orange);
+                border-radius: 30px;    
+                font-weight: 600;
+            }
+            a:hover{
+                background-color: var(--color-black);
+                @extend %cursor-transition--about;
+            }
+
+        }
+        .item__2{
+            img{
+                width: 100%;
+                border-radius: 30px;
+            }
+        }
+        .item__3{
+            span{
+                @include outfit_element--about(5em,--color-font,unset ,0px 1rem 0px 0px ,none );    
+                opacity: .1;
+            }
+            p{
+                @include outfit_element--about(1.3rem,--color-black,unset ,unset,none ); 
+                display: inline;
+            }
+            h5{
+                @include outfit_element--about(2rem,--color-orange, 2.3rem 0px 1rem 0px ,unset,none ); 
+            }
+            h4{
+                @include outfit_element--about(1.22rem,--color-font,1rem 0px 0px 0px ,unset,none ); 
+                border-top: 1px solid var(--color-border);
+                font-weight: lighter;   
+            }
+        }
+    }
+}
+
+#Our_team{
+    padding: 7% 8%;
+    @include center-background--about("https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/images/bg1.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    .container{
+        .tittle{
+            text-align: center;
+            padding: 0px 22%;
+            line-height: 3.7rem; 
+            margin-bottom: 2.8rem;   
+            p{
+                color: var(--color-white);
+                font-size: 1.3rem;
+                text-transform: uppercase;
+            }
+            h3{
+                color: var(--color-white);
+                font-size: 3rem;
+                span{
+                    color: var(--color-orange);
+                }
+            }
+        }
+        .item{
+            @include flex--about(space-between);
+            text-align: center;
+            &__child{
+                width: 20%;
+                
+                img{
+                    width: 100%;
+                    border-radius: 50%;
+                    border: 5px solid var(--color-white);
+                }
+                &--name{
+                    @include outfit_element--about(1.7rem,--color-white, 1rem 0px, 5px 0px 0px 0px, unset );
+                    display: inline-block;
+                }
+                &--socials{
+                    a{
+                        margin: 0px 2px;
+                        padding: 0.6rem;
+                        border-radius: 50%;
+                        background-color: var(--color-white);
+                        span{
+                            color: #222;
+                            width: 1rem;
+                            height: 1rem;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
+
+.container__about{
+    margin-top: -280px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,226 @@
+@use "../utils" as *;
+@use "../globals" as *;
+
+
+
+%cursor-transition--blog{
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+@mixin center-background--blog($url){
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+
+@mixin flex--blog($justify-content){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+}
+@mixin outfit_element--blog($font-size,$color,$padding,$margin,$border){
+    font-size:$font-size;
+    color:var($color);
+    padding:$padding;
+    margin: $margin;
+    border: $border;
+}
+@mixin position--blog($position,$top,$right,$bottom,$left,$width,$height){
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    width: $width;
+    height: $height;
+}
+
+header#blogPage{
+    height: 40vh;
+    position: relative;
+    #about{
+        color: none;
+    }
+    .about{
+        color: var(--color-grey);
+        @include position--blog(absolute, 50%, 0, 0 , 9%, none ,none );
+        h4{
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+        }
+        a{
+            font-weight: 700;
+            color: var(--color-black);
+            margin-right: -5px;
+        }
+        a:hover{
+            color: var(--color-orange);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.Page{
+    padding: 7% 9%;
+    .container{
+        @include flex--blog(space-between);
+        align-items: unset;
+        .img{
+            width: 65%;
+            &__item{
+                margin-bottom: 2rem;
+                border: 1px solid var(--color-border);
+                border-radius: 10px;
+                overflow: auto;
+                img{
+                    width: 100%;
+                }
+                &--content{
+                    padding: 1.2rem;
+                    a{
+                        font-size: 0.85rem;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                    &-right{
+                        float: right;
+                        color: var(--color-font);
+                        padding-right: 1rem;
+                    }
+                    &-left{
+                        span{
+                            font-weight: bold;
+                            color: var(--color-orange);
+                        }
+                    }
+                    }
+                    h4{
+                        margin-top: 1rem;
+                        font-size: 1.6rem;
+                    }
+                }
+            
+            }
+        
+        .content{
+            width: 33%;
+            padding-left: 5px;
+            &__form{
+                @include flex--blog(unset);
+                &--search-field{
+                    @include outfit_element--blog(1.2rem, --color-font,12px 70px 12px 17px ,unset , 1px solid var(--color-border--light) );
+                    width: 73%;
+                    line-height: 27px;
+                    outline: none;  
+                    background: var(--color-bg);     
+                    height: 50px;
+                    border-radius: 4px;
+                }
+                &--search-submit{
+                    @include outfit_element--blog(1rem, --color-white,unset ,unset ,none);
+                    width: 27%;
+                    height: 50px;
+                    font-weight: 600;
+                    background: var(--color-orange);
+                    border-radius: 0px;
+                    border-top-right-radius: 4px;
+                    border-bottom-right-radius: 4px;
+                }
+
+            }
+            &__item{
+                margin-top: 3rem;
+                border: 1px solid var(--color-border--light);
+                padding: 1.5rem;
+                h4{
+                    font-size: 1.2rem;
+                }
+                ul{
+                    li{
+                        color: var(--color-font);
+                        line-height: 2.5rem;
+                    }
+                }
+            }
+            &__item--RecentPosts{
+                ul{
+                    li{
+                        font-size: 1.150rem;
+                        line-height: 3.4rem;
+                        border-bottom: 1px solid var(--color-border--light);
+                    }
+                }
+            }
+            &__item--RecentComments{
+                ul{
+                    li{
+                        color: var(--color-orange);
+                        font-weight: 500;
+                        span{
+                            color: var(--color-font);
+                        }
+                    }
+                    li:hover{
+                        text-decoration: underline;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            &__item--Archives{
+                
+            }
+            &__item--Categories{
+                
+            }
+            &__item--Meta{
+                
+            }
+        }
+    }
+}
+#main__page2{
+    display: none;
+}
+
+#pagination {
+    padding: 0% 9%;
+    margin: -5rem 0px 6rem 0px;
+    button {
+            font-size: 1rem;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            border-radius: 50%;
+            color:var(--color-black);
+            border: none;
+            margin-right: 3px;
+            background: none;
+            }
+
+        button:hover{
+            background-color: var(--color-orange);                    color:var(--color-black);
+            color:var(--color-white);
+            @extend %cursor-transition--blog;
+        }
+        button.active {
+            background-color: var(--color-orange);
+            color: var(--color-white);
+        }
+        #prev{
+            display: none;
+            width: 63px;
+        }
+        #next{
+            width: 63px;
+        }
+}

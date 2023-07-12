@@ -1,0 +1,235 @@
+@use "../utils" as *;
+@use "../globals" as *;
+
+
+
+%cursor-transition--services{
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+@mixin center-background--services($url){
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+
+@mixin flex--services($justify-content){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+}
+@mixin outfit_element--services($font-size,$color,$padding,$margin,$border){
+    font-size:$font-size;
+    color:var($color);
+    padding:$padding;
+    margin: $margin;
+    border: $border;
+}
+@mixin position--services($position,$top,$right,$bottom,$left,$width,$height){
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    width: $width;
+    height: $height;
+}
+
+header#Services{
+    height: 40vh;
+    position: relative;
+    #services{
+        color: none;
+    }
+    .services{
+        background: unset;
+        color: var(--color-grey);
+        @include position--services(absolute, 50%, 0, 0 , 9%, none ,none );
+        h4{
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+        }
+        a{
+            font-weight: 700;
+            color: var(--color-black);
+            margin-right: -5px;
+        }
+        a:hover{
+            color: var(--color-orange);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.services__sv{
+    background: unset;
+    .container{
+        padding:8%;
+        .title{
+            padding: 0px 19rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            p{
+                color: var(--color-font);
+                font-size: 1.2rem;
+            }
+            h3{
+                @include outfit_element--services(2.8rem, --color-black, none,none , none);
+                line-height: 3.5rem;
+                font-weight: 600;
+                span{
+                    color: var(--color-orange);
+                }
+            }
+        }
+        .item{
+            padding: 4% 0px;
+            display: flex;
+            padding-bottom: 0px;
+            &__child{
+                @include position--services(relative,none,none,none,none,33.3%,none);
+                border-radius: 5px;
+                margin-right: 1.7rem;
+                &--box{
+                    padding: 50px 35px;
+                    position: relative;
+                    z-index: 1;
+                    border-radius: 8px;
+                    box-shadow: 0 1rem 3rem var(--box-shadow-color-2);
+                    background-color: var(--color-white);
+                    overflow: hidden;
+                    transition: all 0.3s ease-out 0s;
+                    img{
+                        border-radius: 50%;
+                    }
+                    h4{
+                        font-size: 1.3rem;
+                        padding: 25px 0px;
+                    }
+                }
+                &--box::before{
+                    @include position--services(absolute,-20px,none,none,-26px,185px,185px);
+                    content: "";
+                    background-color: #ffd2bd;
+                    border-radius: 0 50%;
+                    z-index: -1;
+                    transition: all 0.2s ease-out 0s;
+                }
+                &--box::after{
+                    @include position--services(absolute,none,20px,20px,none,0,0);
+                    content: "";
+                    border-right: 25px solid var(--color-white);
+                    border-left: 25px solid transparent;
+                    border-top: 25px solid transparent;
+                    border-bottom: 25px solid var(--color-white);
+                    z-index: -1;
+                    transition: all 0.2s ease-out 0s;
+                }
+                &--box:hover::before{
+                    transition: .3s;
+                    background-color: var(--color-orange);
+                }
+                &--box:hover::after{
+                    transition: .3s;
+                    border-right: 25px solid var(--color-orange);
+                    border-bottom: 25px solid var(--color-orange);
+                }
+                &--box--active:before{
+                    transition: .3s;
+                    background-color: var(--color-orange);
+                }
+                &--box--active:after{
+                    transition: .3s;
+                    border-right: 25px solid var(--color-orange);
+                    border-bottom: 25px solid var(--color-orange); 
+                }
+            }
+        }
+    }
+}
+
+
+#Industrial{
+    @include center-background--services("https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/images/bg2.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    height: 438px;
+    .container{
+        @include position--services(absolute, 18%, none, none ,8%, none, none );
+        padding-right: 35%;
+        p{
+            color: var(--color-white);
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+        h4{
+            color: var(--color-white);
+            font-size: 3rem;
+        }
+        a{
+            @include outfit_element--services(1rem,--color-white ,  0.9rem 1.7rem, 2rem 0px 0px 0px, none);
+            display: inline-block;
+            font-weight: bold;
+            background-color: var(--color-orange);
+            border-radius: 2rem;
+        }
+        a:hover{
+            background-color: var(--color-black);
+            @extend %cursor-transition--services;   
+        }
+    }
+}
+
+
+#Advantage{
+    padding: 6% 9%;
+    .container{
+        @include flex--services(space-between);
+        align-items: unset;
+        .img{
+            width: 49%;
+            img{
+                width: 100%;
+                border-radius: 5px;
+            }
+            
+        }
+        .content{
+            margin-left: 3.8rem;
+            width: 49%;
+            &__item{
+                margin-bottom: 2rem;
+                line-height: 3rem;
+                i,span{
+                    font-size: 2.2rem;
+                    float: left;
+                    color: var(--color-orange);
+                };
+                span{
+                    font-weight: 600;
+                    font-size: 2.5rem;
+                }
+                &--word{
+                    margin-left: 4rem;
+                    h6{
+                        font-size: 1.35rem;
+                    };
+                    h6:hover{
+                        @extend %cursor-transition--services; 
+                        color: var(--color-orange);
+                    }
+
+                }
+            }
+        }
+    }
+}
+

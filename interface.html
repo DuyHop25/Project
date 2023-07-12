@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home</title>
+  <link rel="stylesheet" href="./dist/index.css">
+</head>
+<body>
+    <!-- header start-->
+    <header>
+        <nav class="menu" id="bar">
+            <div id="left">
+                <h1>
+                    <i class="fas fa-tools"></i> Industries					
+                </h1>
+            </div>
+            
+            <div id="right">
+                <ul>
+                    <li><a href="./interface.html" id="home" class="page">Home</a></li>
+                    <li><a href="./about.html" id="about" class="page">About</a></li>
+                    <li><a href="./services.html" id="service" class="page">Services</a></li>
+                    <li id="page" onclick="toggleData()"><a  id="a" class="page">Pages</a>
+                        <div id="menuPage">
+                            <a href="./blog__posts.html">Blog Posts</a>
+                            <a href="">404 Page</a>
+                            <a href="./interface.html">Landing Page</a>
+                            <a href="">Elements Page</a>
+                        </div>
+                    </li>
+                    <li><a href="./contact.html" id="contact" class="page">Contact</a></li>
+                </ul>
+                <div id="search">
+                    <input type="search" placeholder="Enter Keyword" id="research">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div id="moon">
+                    <i class="fa fa-moon-o" aria-hidden="true" id="moon_i"></i>
+                </div>
+            </div> 
+        </nav>
+
+        <main class="main">
+            <div id="main__left">
+                <h3>We build your Best</h3>
+                <h4>Future!</h4>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui seequi.</p>
+                <a href="">View our Works</a>
+            </div>
+            <div id="main__right">
+                <img src="./images/home/banner.jpg" alt="">
+            </div>
+        </main>
+        <div  class="scoll_bar">
+            <div class="scoll_bar__item">
+                <span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+                <hr style="opacity: 0.2;">
+            </div>
+            <div class="scoll_bar__item">
+                <span class="fa fa-arrow-left"></span>
+                <p>Back</p>
+            </div>
+            <div class="scoll_bar__item">
+                <span class="fa fa-download"></span>
+                <p>Download</p>
+            </div>
+            <div class="scoll_bar__item">
+                <span class="fa fa-shopping-cart"></span>
+                <p>Buy</p>
+            </div>
+        </div>
+    </header>
+    <!-- header end-->
+
+    <!-- About_us start-->
+    <section id="About_us">
+        <div class="container">
+            <div class="item">
+                <div class="item__icon">
+                    <i class="fas fa-tools" aria-hidden="true"></i>
+                </div>
+                <div class="item__content">
+                    <h5>WHO WE ARE</h5>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__icon">
+                    <i class="fas fa-toolsfas fa-drafting-compass" aria-hidden="true"></i>
+                </div>
+                <div class="item__content">
+                    <h5>HOW WE WORK</h5>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__icon">
+                    <i class="fas fa-industry" aria-hidden="true"></i>
+                </div>
+                <div class="item__content">
+                    <h5>WHAT WE DO</h5>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About_us end-->
+
+    <!-- About_block start-->
+    <section id="About_block">
+        <div class="container">
+            <div class="img">
+                <img src="./images/home/about.png" alt="">
+            </div>
+            <div class="content">
+                <h4>SINCE <span>2000</span></h4>
+                <h6>We Have <span>30+</span> Years Industrial Experience</h6>
+                <p id="italics"><i>"Orem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat".</i></p>
+                <p>Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat. Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+                <img src="./images/home/sign.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- About_block end-->
+
+    <!-- services start-->
+    <section class="services services__sv">
+        <div class="container">
+            <div class="title">
+                <p>OUR SERVICES</p>
+                <h3>High Performance Services For Multiple <span>Industries</span></h3>
+            </div>
+            <div class="item">
+                <div class="item__child">
+                    <div class="item__child--box">
+                        <img src="./images/home/service1.jpg" alt="">
+                        <h4>INDUSTRIAL CONSTRUCTION</h4>
+                        <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed et dolor amet.</p>
+                    </div>
+                </div>
+                <div class="item__child">
+                    <div class="item__child--box item__child--box--active">
+                        <img src="./images/home/service2.jpg" alt="">
+                        <h4>MECHANICAL ENGINEERING</h4>
+                        <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed et dolor amet.</p>
+                    </div>
+                </div>
+                <div class="item__child">
+                    <div class="item__child--box">
+                        <img src="./images/home/service3.jpg" alt="">
+                        <h4>ELECTRONIC MATERIALS</h4>
+                        <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed et dolor amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services end-->
+
+    <!-- About_workers start-->
+    <section id="About_workers">
+        <div class="main">
+            <div class="main__content">
+                <h3>Expert Workers Are Giving Best Services To Build Your
+                    <span>Dream Factory</span>
+                </h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam, veritatis et quasi.
+                </p>
+                <a href="">Let's Know More</a>
+            </div>
+            <div class="main__img">
+                <img src="./images/home/st1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="para">
+            <div class="count">
+                <div class="cout__timer" data-to="5100" data-speed="1500">
+                    5,100
+                </div>
+                <p>Total project</p>
+            </div>
+            <div class="count">
+                <div class="cout__timer" data-to="9716" data-speed="1500">
+                    9,716
+                </div>
+                <p>Happy client</p>
+            </div>
+            <div class="count">
+                <div class="cout__timer" data-to="7600" data-speed="1500">
+                    7,600
+                </div>
+                <p>Cup off coffee</p>
+            </div>
+            <div class="count">
+                <div class="cout__timer" data-to="976" data-speed="1500">
+                    976
+                </div>
+                <p>Awards won</p>
+            </div>
+        </div>
+    </section>
+    <!-- About_workers end-->
+
+    <!-- Industry start-->
+    <section id="Industry">
+        <div class="content">
+            <p>INDUSTRY</p>
+            <h3>We Provide top industrial
+                <span>Services</span>
+            </h3>
+        </div>
+        <div class="node">
+            <!--//video-->
+            <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center pl-3">
+                <span id="icon" class="node__icon" onclick="Video()">
+                    <span class="fa fa-play"></span>
+                </span>
+            </a>
+            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->    
+            <!--//video-->
+        </div>
+        <div id="small-dialog" class="video__play">
+            <div class="video__play--item">
+                <iframe src="https://player.vimeo.com/video/13618190" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="">
+                </iframe>
+                <span id="closeButton" onclick="Close()">&times;</span>
+            </div>
+        </div>
+        <div class="img">
+            <div class="img__item">
+                <img src="./images/home/industry__1.jpg" alt="">
+                <h4>Civil engineering</h4>
+            </div>
+            <div class="img__item">
+                <img src="./images/home/industry__2.jpg" alt="">
+                <h4>Oil & engineering</h4>
+            </div>
+            <div class="img__item">
+                <img src="./images/home/industry__3.jpg" alt="">
+                <h4>Chemical research</h4>
+            </div>
+        </div>
+        
+    </section> 
+    <!-- Industry end-->
+
+    <!-- Testimonials start-->
+    <section id="Testimonials">
+        <div class="container">
+            <div class="tittle">
+                <p>TESTIMONIALS</p>
+                <h3>Happy With Customers & <span>Clients</span></h3>
+            </div>
+            <div class="main">
+                <div class="main__item">
+                    <div class="main__item--content">
+                        <q>Pellen tesque libero ut justo</q>
+                        <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in faucibus orci luctus et ultrices posuere,tesque libero ut justo Semper.</p>
+                    </div>
+                    <div class="main__item--info">
+                        <img src="./images/home/testi1.jpg" alt="">
+                        <div class="main__item--info--name">
+                            <h3>Johnson william</h3>
+                            <p>Subtitle</p> 
+                        </div>        
+                    </div>
+                </div>
+                <div class="main__item">
+                    <div class="main__item--content">
+                        <q>Lorem ipsum dolor sit amet</q>
+                        <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in faucibus orci luctus et ultrices posuere,tesque libero ut justo Semper.</p>
+                    </div>
+                    <div class="main__item--info">
+                        <img src="./images/home/testi2.jpg" alt="">  
+                        <div class="main__item--info--name">
+                            <h3>Alexander sakura</h3>
+                            <p>Subtitle</p>  
+                        </div>              
+                    </div>
+                </div>
+            </div>
+            <div class="owl">
+                <button role="button" class="owl-dot active" >
+                    <span></span>
+                </button>
+                <button role="button" class="owl-dot">
+                    <span></span>
+                </button>
+                <button role="button" class="owl-dot" >
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials end-->
+
+    <!-- Our-blog start-->
+    <section id="Our-blog">
+        <div class="title">
+            <p>OUR BLOG</p>
+            <h3>Learn more from our latest 
+            <span>Blog</span> Posts</h3>
+        </div>
+        <div class="main">
+            <div class="main__item">
+                <img src="./images/home/blog1.jpg" alt="">
+                <div class="main__item--badge">
+                    <a href="https://wp.w3layouts.com/industries/category/business/" rel="category tag">Business</a>
+                </div>
+                <div class="main__item--content">
+                    <p><span class="fas fa-user"></span>W3Layouts</p>
+                    <p class="main__item--content--date"><span class="fa fa-calendar"></span>April 30, 2021</p>
+                    <h4>Hello world!</h4>
+                    <a href="">Read more</a>
+                </div>
+                
+            </div>
+            <div class="main__item">
+                <img src="./images/home/blog2.jpg" alt="">
+                <div class="main__item--badge"><a href="https://wp.w3layouts.com/industries/category/design/" rel="category tag">Design</a></div>
+                <div class="main__item--content">
+                    <p><span class="fas fa-user"></span>W3Layouts</p>
+                    <p class="main__item--content--date"><span class="fa fa-calendar"></span>April 30, 2021</p>
+                    <h4>Wotam rem qaque ipsa quae ab</h4>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our-blog end-->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="item">
+                <h2 class="tittle">
+                    <i class="fas fa-tools"></i> Industries					
+                </h2>
+                <div class="item__content">
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+                    <div class="content-">
+                        <a href="https://www.facebook.com/w3layouts/" class="social">
+                            <span class="fab fa-facebook-f"></span>
+                        </a>
+                        <a href="https://twitter.com/W3layouts" class="social"><span class="fab fa-twitter"></span>
+                        </a>
+                        <a href="https://instagram.com/company/w3layouts" class="social"><span class="fab fa-instagram"></span>
+                        </a>
+                        <a href="https://in.linkedin.com/company/w3layouts" class="social"><span class="fab fa-linkedin-in"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Meta</h3>
+                <div class="item__content">
+                    <ul>
+                        <li>Log In</li>
+                        <li>Entries Feed</li>
+                        <li>Comments Feed</li>
+                        <li>WordPress.Org</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Categories</h3>
+                <div class="item__content">
+                    <ul>
+                        <li>Business</li>
+                        <li>Creative</li>
+                        <li>Design</li>
+                        <li>Industry</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Newsletter</h3>
+                <div class="item__content">
+                    <form action="">
+                        <input type="email" name="email" placeholder="Email Address" required="">
+                        <button fdprocessedid="gj0und"><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                    </form>
+                    <h3>Give us a free call:</h3>
+                    <a href="tel:+12 23456790">
+                        +12 23456790</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="left">© 2023 Industries All Rights Reserved WordPress Them by<a href="https://w3layouts.com/">
+                W3Layouts.</a></p>
+            <p class="right">April 2021</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
