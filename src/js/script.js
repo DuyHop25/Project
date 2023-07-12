@@ -3,6 +3,28 @@ window.onscroll = function(){
     scrollBar();
 }
 
+function scrollBar(){
+    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+    {
+        document.getElementById("bar").style.top = "0";
+        document.getElementById("bar").style.backgroundColor = "var(--color-white)";
+        document.getElementById("bar").style.transition = "1s";
+        document.getElementById("research").style.border = "2px solid #eee";
+        document.getElementById("moon_i").style.color = "#060606";
+        document.getElementById("bar").style.padding = "0.6rem 2rem"; 
+        // hoverPageMenu
+        hoverPageMenu();
+    }
+    else{
+        document.getElementById("bar").style.backgroundColor = "transparent";
+        document.getElementById("moon_i").style.color = "#ffffff";
+        document.getElementById("bar").style.padding = "1.2rem 2rem";
+        // unhoverPageMenu
+        UnhoverPageMenu();
+    }
+}  
+
+
 function hoverPageMenu(){
     var path = window.location.pathname;
     var pageName = path.split('/').pop();
@@ -77,38 +99,10 @@ function UnhoverPageMenu() {
     }
 }
 
-function scrollBar(){
-    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
-    {
-        document.getElementById("bar").style.top = "0";
-        document.getElementById("bar").style.backgroundColor = "var(--color-white)";
-        document.getElementById("bar").style.transition = "1s";
-        document.getElementById("research").style.border = "2px solid #eee";
-        document.getElementById("moon_i").style.color = "#060606";
-        document.getElementById("bar").style.padding = "0.6rem 2rem"; 
-        
-        // hoverPageMenu
-        hoverPageMenu();
 
-        
-    }
-    else{
-        document.getElementById("bar").style.backgroundColor = "transparent";
-        document.getElementById("moon_i").style.color = "#ffffff";
-        document.getElementById("bar").style.padding = "1.2rem 2rem";
-
-        // unhoverPageMenu
-        UnhoverPageMenu();
-
-        
-        
-
-    }
-}  
 
 
 // Open video 
-
 var body = document.body;
 var node = document.getElementById("icon");
 var video = document.getElementById('small-dialog');
@@ -119,9 +113,6 @@ node.addEventListener("click", function() {
   video.style.display = "block";
   overlay.className = 'overlay';
   body.appendChild(overlay);
-
-  
-
 
   overlay.addEventListener("click", function() {
     body.removeChild(overlay);
